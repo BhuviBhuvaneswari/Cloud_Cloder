@@ -1,4 +1,9 @@
 <?php
-$query=mysql_connect("localhost","root","");
-mysql_select_db("cloudcoder",$query);
+$hostname="localhost";
+$username="root";
+$password="root";
+$db_name="cloudcoderdb";
+$con=mysql_connect($hostname,$username,$password);
+mysql_select_db($db_name);
+
 ?>
